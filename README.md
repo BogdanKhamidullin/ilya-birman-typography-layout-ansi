@@ -1,45 +1,51 @@
-# Ilya Birman Typography Layout for ANSI keyboards
+# Ilya Birman’s Typography Layout adapted for ANSI keyboards on macOS
 
-[Ilya Birman’s Typography Layout](https://ilyabirman.ru/typography-layout/) for macOS, adapted for ANSI keyboards. Its Russian and English layouts let you type typographic characters using Option: for example, Option + comma and Option + period produce « and ». Hold Shift as well for other characters. The original page has a complete keyboard diagram and instructions.
+This repository contains 2 adaptations of [Ilya Birman’s Typography Layout](https://ilyabirman.ru/typography-layout/) for macOS. The English and Russian layouts add typographic characters to your keyboard. For example, Option + comma and Option + period produce « and ». Hold Shift as well to enter other characters. The original page has keyboard diagrams and instructions.
+
+## Choose a bundle
+
+- **Universal** — `Ilya Birman Typography Layout Universal.bundle` uses the original English mapping for ISO keyboard types recognized by macOS and the ANSI mapping for ANSI keyboards.
+- **ANSI** — `Ilya Birman Typography Layout ANSI.bundle` uses the ANSI mapping.
+
+In the ANSI English mapping, key code 50 produces a backtick (`` ` ``) instead of the original backslash. On a typical ANSI keyboard, this is the key above Tab. The Russian layout is unchanged. See [ANSI-CHANGE.md](ANSI-CHANGE.md) for details.
+
+The universal mapping depends on how macOS identifies the keyboard. Check the keys on your keyboard after installation; the universal layout has not yet been tested on physical ANSI and ISO keyboards.
 
 ## Install
 
-1. Copy `Ilya Birman Typography Layout ANSI.bundle` to `~/Library/Keyboard Layouts`. In Finder, choose **Go → Go to Folder** and enter that path.
+1. Copy the bundle you chose to `~/Library/Keyboard Layouts`. In Finder, choose **Go → Go to Folder** and enter that path.
 2. Log out and back in. If the layouts do not appear, restart your Mac.
-3. Open **System Settings → Keyboard → Input Sources**, add **English – Ilya Birman Typography ANSI** and **Russian – Ilya Birman Typography ANSI**, then select the layout you want to use.
+3. Open **System Settings → Keyboard → Input Sources** and add the English and Russian input sources ending in **Universal** or **ANSI**, matching the bundle you installed.
 
-If an older copy is installed, remove it before installing this bundle. The original and ANSI versions use the same input-source identifiers, so they are not set up to coexist independently.
-
-## ANSI change
-
-In the English layout, the key above Tab produces a backtick (`` ` ``); Shift + that key produces `~`. The key above Return produces `\`, or `|` with Shift. In the Russian layout, the key above Tab produces `ё`, or `Ё` with Shift.
-
-The change applies to the primary keyboard map. If the keys behave differently, check the active input source and your keyboard’s identification in macOS. See [ANSI-CHANGE.md](ANSI-CHANGE.md) for the mapping details and checks.
+The original and ANSI bundles share input-source identifiers. Remove an older copy before installing the ANSI bundle. The universal bundle has separate identifiers.
 
 ## Remove
 
-Remove the ANSI input sources in Keyboard settings, then delete the bundle from `~/Library/Keyboard Layouts`. Log out and back in if the layouts remain available.
+Remove the 2 input sources in Keyboard settings, then delete their bundle from `~/Library/Keyboard Layouts`. Log out and back in if the layouts remain available.
 
 ---
 
-# Типографская раскладка Ильи Бирмана для клавиатур ANSI
+# Типографская раскладка Ильи Бирмана для клавиатур ANSI на macOS
 
-[Типографская раскладка Ильи Бирмана](https://ilyabirman.ru/typography-layout/) для macOS, адаптированная для клавиатур ANSI. Русская и английская раскладки позволяют вводить типографские символы с помощью Option: например, Option + запятая и Option + точка дают « и ». Чтобы ввести другие символы, удерживайте также Shift. Полная схема клавиш и инструкции есть на странице оригинальной раскладки.
+В репозитории — 2 адаптации [типографской раскладки Ильи Бирмана](https://ilyabirman.ru/typography-layout/) для macOS. Английская и русская раскладки добавляют типографские символы на клавиатуру. Например, Option + запятая и Option + точка вводят « и ». Для других символов удерживайте также Shift. Схемы клавиш и инструкции есть на странице оригинальной раскладки.
+
+## Выбор файла
+
+- **Universal** — `Ilya Birman Typography Layout Universal.bundle` использует оригинальную английскую раскладку для клавиатур, которые macOS определяет как ISO, и версию ANSI для клавиатур ANSI.
+- **ANSI** — `Ilya Birman Typography Layout ANSI.bundle` использует версию ANSI.
+
+В английской версии ANSI клавиша с кодом 50 вводит обратный апостроф (`` ` ``) вместо обратной косой черты. На обычной клавиатуре ANSI это клавиша над Tab. Русская раскладка не изменена. Подробности — в [ANSI-CHANGE.md](ANSI-CHANGE.md).
+
+Работа универсальной раскладки зависит от того, как macOS определила клавиатуру. После установки проверьте клавиши на своей клавиатуре: универсальную раскладку ещё не проверяли на физических клавиатурах ANSI и ISO.
 
 ## Установка
 
-1. Скопируйте `Ilya Birman Typography Layout ANSI.bundle` в папку `~/Library/Keyboard Layouts`. Чтобы открыть её в Finder, выберите **Переход → Переход к папке** и введите этот путь.
+1. Скопируйте выбранный файл в папку `~/Library/Keyboard Layouts`. Чтобы открыть её в Finder, выберите **Переход → Переход к папке** и введите этот путь.
 2. Выйдите из учётной записи и войдите снова. Если раскладки не появились, перезагрузите Мак.
-3. Откройте **Системные настройки → Клавиатура → Источники ввода**, добавьте **English – Ilya Birman Typography ANSI** и **Russian – Ilya Birman Typography ANSI**, затем выберите нужную раскладку.
+3. Откройте **Системные настройки → Клавиатура → Источники ввода** и добавьте английский и русский источники ввода с окончанием **Universal** или **ANSI** — в зависимости от установленного файла.
 
-Если установлена старая копия, удалите её перед установкой. У оригинальной версии и версии ANSI одинаковые идентификаторы источников ввода, поэтому они не настроены для независимой работы друг от друга.
-
-## Изменение для ANSI
-
-В английской раскладке клавиша над Tab вводит обратный апостроф (`` ` ``), а с Shift — `~`. Клавиша над Return вводит `\`, а с Shift — `|`. В русской раскладке клавиша над Tab вводит `ё`, а с Shift — `Ё`.
-
-Изменение внесено в основную карту клавиатуры. Если клавиши работают иначе, проверьте выбранный источник ввода и то, как macOS определила клавиатуру. Подробности и способы проверки — в [ANSI-CHANGE.md](ANSI-CHANGE.md).
+У оригинального файла и файла ANSI одинаковые идентификаторы источников ввода. Перед установкой файла ANSI удалите старую копию. У универсального файла отдельные идентификаторы.
 
 ## Удаление
 
-Удалите 2 источника ввода ANSI в настройках клавиатуры, затем удалите файл раскладки из `~/Library/Keyboard Layouts`. Если раскладки остались в списке, выйдите из учётной записи и войдите снова.
+Удалите 2 источника ввода в настройках клавиатуры, затем удалите их файл из `~/Library/Keyboard Layouts`. Если раскладки остались в списке, выйдите из учётной записи и войдите снова.
