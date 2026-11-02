@@ -5,10 +5,10 @@
 	<key>CFBundleIdentifier</key>
 	<string>org.sil.ukelele.keyboardlayout.t</string>
 	<key>CFBundleName</key>
-	<string>Ilya Birman Typography Layout</string>
+	<string>Ilya Birman Typography Layout ANSI</string>
 	<key>CFBundleVersion</key>
 	<string>3.9</string>
-	<key>KLInfo_English – Ilya Birman Typography</key>
+	<key>KLInfo_English – Ilya Birman Typography ANSI</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<true/>
@@ -19,7 +19,7 @@
 		<key>TISIntendedLanguage</key>
 		<string>en-US</string>
 	</dict>
-	<key>KLInfo_Russian – Ilya Birman Typography</key>
+	<key>KLInfo_Russian – Ilya Birman Typography ANSI</key>
 	<dict>
 		<key>TICapsLockLanguageSwitchCapable</key>
 		<true/>
