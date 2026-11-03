@@ -5,8 +5,8 @@ Tab (key code 50). Previously it output a backslash, duplicating the key above
 Return and making the backtick require Option.
 
 Shift + the key above Tab still outputs `~`; the key above Return still
-outputs `\` and Shift + that key outputs `|`. The Russian layout is unchanged:
-the key above Tab outputs `ё` or `Ё` with Shift.
+outputs `\` and Shift + that key outputs `|`. In the Russian layout, the key above Tab outputs `ё`, and Shift + that key
+outputs `Ё`. Command + that key retains the backtick for window switching.
 
 To verify on an ANSI keyboard, select each installed input source and test
 these keys, Option combinations, the grave-accent dead key, and shortcuts using

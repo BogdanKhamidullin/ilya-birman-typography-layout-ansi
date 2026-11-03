@@ -7,7 +7,7 @@ This repository contains 2 adaptations of [Ilya Birman’s Typography Layout](ht
 - **Universal** — `Ilya Birman Typography Layout Universal.bundle` uses the original English mapping for ISO keyboard types recognized by macOS and the ANSI mapping for ANSI keyboards.
 - **ANSI** — `Ilya Birman Typography Layout ANSI.bundle` uses the ANSI mapping.
 
-In the ANSI English mapping, key code 50 produces a backtick (`` ` ``) instead of the original backslash. On a typical ANSI keyboard, this is the key above Tab. The Russian layout is unchanged. See [ANSI-CHANGE.md](ANSI-CHANGE.md) for details.
+In the ANSI English mapping, key code 50 produces a backtick (`` ` ``) instead of the original backslash. On a typical ANSI keyboard, this is the key above Tab. In the Russian layout, the key above Tab produces `ё` and Shift + that key produces `Ё`. Command + that key retains the backtick for window switching. See [ANSI-CHANGE.md](ANSI-CHANGE.md) for details.
 
 The universal mapping depends on how macOS identifies the keyboard. Check the keys on your keyboard after installation; the universal layout has not yet been tested on physical ANSI and ISO keyboards.
 
@@ -34,7 +34,7 @@ Remove the 2 input sources in Keyboard settings, then delete their bundle from `
 - **Universal** — `Ilya Birman Typography Layout Universal.bundle` использует оригинальную английскую раскладку для клавиатур, которые macOS определяет как ISO, и версию ANSI для клавиатур ANSI.
 - **ANSI** — `Ilya Birman Typography Layout ANSI.bundle` использует версию ANSI.
 
-В английской версии ANSI клавиша с кодом 50 вводит обратный апостроф (`` ` ``) вместо обратной косой черты. На обычной клавиатуре ANSI это клавиша над Tab. Русская раскладка не изменена. Подробности — в [ANSI-CHANGE.md](ANSI-CHANGE.md).
+В английской версии ANSI клавиша с кодом 50 вводит обратный апостроф (`` ` ``) вместо обратной косой черты. На обычной клавиатуре ANSI это клавиша над Tab. В русской раскладке клавиша над Tab вводит `ё`, а с Shift — `Ё`. С Command эта клавиша сохраняет обратный апостроф для переключения окон. Подробности — в [ANSI-CHANGE.md](ANSI-CHANGE.md).
 
 Работа универсальной раскладки зависит от того, как macOS определила клавиатуру. После установки проверьте клавиши на своей клавиатуре: универсальную раскладку ещё не проверяли на физических клавиатурах ANSI и ISO.
 
