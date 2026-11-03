@@ -1,6 +1,6 @@
 # Ilya Birman Typography Layout for ANSI keyboards
 
-[Ilya Birman’s Typography Layout](https://ilyabirman.ru/typography-layout/) for macOS, adapted for ANSI keyboards. Its Russian and English layouts let you type typographic characters using Option: for example, Option + comma and Option + period produce « and ». Hold Shift as well for other characters. The original page has a complete keyboard diagram and instructions.
+[Ilya Birman’s Typography Layout](https://ilyabirman.net/typography-layout/) for macOS, adapted for ANSI keyboards. Its Russian and English layouts let you type typographic characters using Option: for example, Option + comma and Option + period produce « and ». Hold Shift as well for other characters. The [original page](https://ilyabirman.net/typography-layout/) has a complete keyboard diagram and instructions.
 
 ## Install
 
@@ -24,7 +24,7 @@ Remove the ANSI input sources in Keyboard settings, then delete the bundle from 
 
 # Типографская раскладка Ильи Бирмана для клавиатур ANSI
 
-[Типографская раскладка Ильи Бирмана](https://ilyabirman.ru/typography-layout/) для macOS, адаптированная для клавиатур ANSI. Русская и английская раскладки позволяют вводить типографские символы с помощью Option: например, Option + запятая и Option + точка дают « и ». Чтобы ввести другие символы, удерживайте также Shift. Полная схема клавиш и инструкции есть на странице оригинальной раскладки.
+[Типографская раскладка Ильи Бирмана](https://ilyabirman.ru/typography-layout/) для macOS, адаптированная для клавиатур ANSI. Русская и английская раскладки позволяют вводить типографские символы с помощью Option: например, Option + запятая и Option + точка дают « и ». Чтобы ввести другие символы, удерживайте также Shift. Полная схема клавиш и инструкции есть на [странице оригинальной раскладки](https://ilyabirman.ru/typography-layout/).
 
 ## Установка
 
